@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>-La Tablita</title>
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="css/material-icons.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"
+      rel="stylesheet">
+
+</head>
+<body>
+    <main class="mainResto">
+
+    </main>
+
+    <nav class="agregarCarrito">
+        <div class="flex">
+            <div class="flex">
+                <button id="restar" class="iconos botonesCarrito" onclick="restar()">remove</button>
+                <p class="botonesCarrito" id="cantidad">1</p>
+                <button id="sumar" class="iconos botonesCarrito" onclick="sumar()">add</button>
+            </div>
+                <button class="btnAgregar"><i class="iconos">post_add</i>Agregar al pedido</button>
+        </div>
+        SubTotal:<span id="subtotal"></span>
+    </nav>   
+
+    <script src="js/acciones_resto.js"></script>
+    <script src="js/leer_plato.js"></script>
+</body>
+</html>
